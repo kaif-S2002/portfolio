@@ -3,8 +3,8 @@ import React from "react";
 const nav = () => {
   return (
     <>
-      <div className="nav-wrapper flex bg-zinc-900 py-6 px-12 justify-between items-center text-slate-100">
-        <div className="nav-logo">
+      <div className="nav-wrapper flex bg-transparent pt-6 pb-5 px-12 justify-between items-center text-slate-100">
+        <div className="nav-logo cursor-pointer">
           <span className="flex justify-between items-center text-xl tracking-widest text-stone-400">
             {"<Ks.dev/>"}
           </span>
