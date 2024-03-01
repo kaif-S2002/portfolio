@@ -3,9 +3,9 @@ import React from "react";
 const nav = () => {
   return (
     <>
-      <div className="nav-wrapper flex bg-transparent pt-6 pb-5 px-12 justify-between items-center text-slate-100">
+      <div className="nav-wrapper flex bg-zinc-900 pt-6 pb-4 px-12 justify-between items-center text-slate-100">
         <div className="nav-logo cursor-pointer">
-          <span className="flex justify-between items-center text-xl tracking-widest text-stone-400">
+          <span className="flex justify-between items-center text-xl font-semibold tracking-widest text-stone-500">
             {"<Ks.dev/>"}
           </span>
         </div>
