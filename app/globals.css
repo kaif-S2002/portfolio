@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 body {
-  background-color: rgba(24, 24, 27, 1);
+  /* background-color: rgba(24, 24, 27, 1); */
+  /* background-color: rgba(9, 9, 11, 1); */
+  background-color: black;
 }
 .nav-ul li {
   padding: 6px;
