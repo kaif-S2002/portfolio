@@ -34,7 +34,10 @@ body {
   animation: text-fade-in 1.2s ease-in-out;
 }
 .text-summary {
-  animation: text-summary-fade-in 1.3s ease-in-out;
+  animation: text-summary-fade-in 1.4s ease-in-out;
+}
+.text-summary span {
+  color: rgba(120, 113, 108, 1);
 }
 .text-contact {
   animation: text-contact-fade-in 1.4s ease-in-out;
@@ -59,12 +62,10 @@ body {
   0% {
     opacity: 0;
     transform: translateX(100%);
-    /* transform: scale3d(0); */
   }
   100% {
     opacity: 1;
     transform: translateX(0);
-    /* transform: scale3d(100%); */
   }
 }
 

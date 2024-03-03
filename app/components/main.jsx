@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import Image from "next/image";
 import { Typewriter } from "nextjs-simple-typewriter";
@@ -13,14 +12,14 @@ const main = () => {
             <span className=" text-white">Hi, I'm</span>
             <span className=" text-stone-500 space-x-3">
               <Typewriter
-                words={["< Kaif Siddiqui."]}
+                words={["<Kaif Siddiqui."]}
                 loop={1}
                 cursor
                 cursorStyle="/>"
                 typeSpeed={100}
                 // deleteSpeed={40}
                 // delaySpeed={1600}
-                // onLoopDone={}
+                // onLoopDone={handleDone}
                 // onType={handleType}
               />
             </span>
@@ -29,12 +28,12 @@ const main = () => {
             <span className=" text-stone-500 space-x-3">
               <span className=" text-white">I'm a</span>
               <Typewriter
-                words={["< frontend web developer."]}
+                words={["<frontend web developer."]}
                 loop={1}
                 cursor
                 cursorStyle="/>"
                 typeSpeed={90}
-                // deleteSpeed={30}
+                // deleteSpeed={20}
                 // delaySpeed={1000}
                 // onLoopDone={handleDone}
                 // onType={handleType}
@@ -42,11 +41,14 @@ const main = () => {
             </span>
           </h1>
           <p className="text-summary text-sm font-light w-9/12 pt-4 pb-12">
-            Welcome to my portfolio! As a frontend web developer, I craft
-            intuitive user experiences through clean, responsive design and
-            seamless interaction. Explore my projects to witness my passion for
-            translating ideas into visually stunning and functionally robust web
-            solutions.
+            <span className=" text-lg !text-white">
+              Welcome to my portfolio!
+            </span>{" "}
+            I translate ideas into visually stunning and functionally robust{" "}
+            <span>web solutions</span>. Craft with intuitive{" "}
+            <span>user experiences</span> through clean,{" "}
+            <span>responsive design</span> and{" "}
+            <span>seamless interaction.</span>
           </p>
           <p className="text-contact text-stone-500 text-xs font-medium">
             Contact: 9310****** | kaifs8998@gmail.com
