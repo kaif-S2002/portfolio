@@ -20,3 +20,45 @@ body {
   border-radius: 10px;
   cursor: pointer;
 }
+.main-img {
+  animation: img-fade-in 1.2s ease-in-out;
+}
+.intro-text {
+  animation: intro-fade-in 1s ease-in-out;
+}
+.nav-wrapper {
+  animation: nav-fade-in 1s ease-in-out;
+}
+
+@keyframes img-fade-in {
+  0% {
+    opacity: 0;
+    transform: scale3d(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale3d(100%);
+  }
+}
+
+@keyframes intro-fade-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes nav-fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

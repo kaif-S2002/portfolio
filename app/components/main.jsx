@@ -6,7 +6,7 @@ import { Typewriter } from "nextjs-simple-typewriter";
 const main = () => {
   return (
     <>
-      <div className="main-wrapper flex justify-center items-center h-screen">
+      <div className="main-wrapper flex justify-center items-center h-screen overflow-hidden">
         <div className="intro-text w-7/12 text-gray-200 text-3xl font-bold tracking-wider">
           <h1 className=" py-2 flex items-center space-x-3">
             <span className=" text-white">Hi, I'm</span>
@@ -16,7 +16,7 @@ const main = () => {
                 loop={1}
                 cursor
                 cursorStyle="/>"
-                typeSpeed={80}
+                typeSpeed={90}
                 // deleteSpeed={40}
                 // delaySpeed={1600}
                 // onLoopDone={}
@@ -24,7 +24,7 @@ const main = () => {
               />
             </span>
           </h1>
-          <h2 className=" py-2">
+          <h1 className=" py-2">
             <span className=" text-stone-500 space-x-3">
               <span className=" text-white">I'm a</span>
               <Typewriter
@@ -32,14 +32,14 @@ const main = () => {
                 loop={1}
                 cursor
                 cursorStyle="/>"
-                typeSpeed={70}
+                typeSpeed={80}
                 // deleteSpeed={30}
                 // delaySpeed={1000}
                 // onLoopDone={handleDone}
                 // onType={handleType}
               />
             </span>
-          </h2>
+          </h1>
           <p className=" text-base font-normal w-9/12 pt-4 pb-16">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit
             reiciendis quae beatae consequuntur hic non, porro aliquid eum qui
