@@ -6,7 +6,7 @@ import { FaLinkedin, FaXTwitter, FaGithub, FaInstagram } from "react-icons/fa6";
 const main = () => {
   return (
     <>
-      <div className="main-wrapper flex justify-center items-center h-screen overflow-hidden pt-36">
+      <div className="main-wrapper flex justify-between items-center h-screen overflow-hidden pl-16 ml-1 pt-36">
         <div className="intro-text w-7/12 text-gray-200 text-3xl font-bold tracking-wider mt-5">
           <h1 className="text py-1 flex items-center space-x-3">
             <span className=" text-white">Hi, I'm</span>
@@ -16,7 +16,7 @@ const main = () => {
                 loop={1}
                 cursor
                 cursorStyle="/>"
-                typeSpeed={100}
+                typeSpeed={120}
                 // deleteSpeed={40}
                 // delaySpeed={1600}
                 // onLoopDone={handleDone}
@@ -32,7 +32,7 @@ const main = () => {
                 loop={1}
                 cursor
                 cursorStyle="/>"
-                typeSpeed={90}
+                typeSpeed={80}
                 // deleteSpeed={20}
                 // delaySpeed={1000}
                 // onLoopDone={handleDone}
@@ -95,8 +95,8 @@ const main = () => {
         <div className="main-img">
           <Image
             src={"/assets/myPic.png"}
-            width={380}
-            height={380}
+            width={400}
+            height={400}
             alt="alt-image"
             className="myImg "
           />
