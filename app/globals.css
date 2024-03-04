@@ -45,6 +45,7 @@ body {
 .social-links {
   animation: social-links-fade-in 1.5s ease-in-out;
 }
+
 /* @Keyframes */
 
 @keyframes nav-fade-in {

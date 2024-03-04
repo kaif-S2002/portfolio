@@ -53,14 +53,14 @@ const main = () => {
           <p className="text-contact text-stone-500 text-xs font-medium">
             Contact: 9310****** | kaifs8998@gmail.com
           </p>
-          <ul className="social-links flex justify-start items-center text-stone-500 text-xl pt-6 space-x-6">
+          <ul className="social-links flex justify-start items-center text-xl text-stone-500 pt-6 space-x-6">
             <li>
               <a
                 href="http://www.linkedin.com/in/kaifsiddiqui02"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaLinkedin />
+                <FaLinkedin className="social-icons hover:-translate-y-1 ease-in-out" />
               </a>
             </li>
             <li>
@@ -69,7 +69,7 @@ const main = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaXTwitter />
+                <FaXTwitter className="social-icons hover:-translate-y-1 ease-in-out" />
               </a>
             </li>
             <li>
@@ -78,7 +78,7 @@ const main = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaInstagram />
+                <FaInstagram className="social-icons hover:-translate-y-1 ease-in-out" />
               </a>
             </li>
             <li>
@@ -87,7 +87,7 @@ const main = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaGithub />
+                <FaGithub className="social-icons hover:-translate-y-1 ease-in-out" />
               </a>
             </li>
           </ul>
@@ -97,6 +97,7 @@ const main = () => {
             src={"/assets/myPic.png"}
             width={380}
             height={380}
+            alt="alt-image"
             className="myImg "
           />
         </div>
