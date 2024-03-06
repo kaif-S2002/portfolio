@@ -43,6 +43,12 @@ body {
 .social-links {
   animation: social-links-fade-in 1.5s ease-in-out;
 }
+.about-wrapper {
+  height: 90vh;
+}
+.about-text span {
+  color: rgba(120, 113, 108, 1);
+}
 
 /* @Keyframes */
 
