@@ -21,7 +21,7 @@ const about = () => {
             hunting for an opportunity for a frontend web developer role as my
             professional career.
           </p>
-          <div className="sign-image pl-8 w-11/12">
+          <div className="sign-image pl-8 shrink-0">
             <Image
               src={"/assets/logo6.png"}
               alt="sign"
