@@ -136,7 +136,7 @@ html {
 @keyframes about-fade-in {
   0% {
     opacity: 0;
-    transform: scale(50%);
+    transform: scale(80%);
   }
   100% {
     opacity: 1;
