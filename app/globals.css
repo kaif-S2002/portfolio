@@ -4,8 +4,6 @@
 
 html {
   scroll-behavior: smooth;
-}
-body {
   background-color: black;
 }
 .nav-ul li {
@@ -23,6 +21,7 @@ body {
 }
 .myImg {
   animation: img-fade-in 1.2s ease-in-out;
+
   background-blend-mode: screen;
 }
 .intro-text {
@@ -48,8 +47,9 @@ body {
 }
 .about-wrapper {
   height: 90vh;
-  animation: about-fade-in 2s ease-in-out;
+  animation: about-fade-in ease-in-out;
   animation-timeline: scroll();
+  animation-duration: 2s;
 }
 .about-text span {
   color: rgba(120, 113, 108, 1);
