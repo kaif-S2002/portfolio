@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const nav = () => {
   return (
@@ -13,19 +14,19 @@ const nav = () => {
           <div className="nav-list">
             <ul className="nav-ul flex text-base space-x-10 tracking-wider select-none">
               <li>
-                <a href="#">Home</a>
+                <Link href="#home">Home</Link>
               </li>
               <li>
-                <a href="#">Projects</a>
+                <Link href="#projects">Projects</Link>
               </li>
               <li>
-                <a href="#">Skills</a>
+                <Link href="#skills">Skills</Link>
               </li>
               <li>
-                <a href="#">About</a>
+                <Link href="#about">About</Link>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <Link href="#contact">Contact</Link>
               </li>
             </ul>
           </div>

@@ -1,11 +1,13 @@
 import React from "react";
 import Image from "next/image";
-import { Typewriter } from "nextjs-simple-typewriter";
 
 const about = () => {
   return (
     <>
-      <div className="about-wrapper flex flex-col justify-start items-start text-white px-16 py-28">
+      <div
+        id="about"
+        className="about-wrapper flex flex-col justify-start items-start text-white px-16 py-28"
+      >
         <div className="about-heading text-3xl text-stone-500 font-bold pb-10">
           <h1>{`<About />`}</h1>
         </div>
@@ -37,5 +39,4 @@ const about = () => {
     </>
   );
 };
-
 export default about;

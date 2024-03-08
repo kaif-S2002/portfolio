@@ -6,7 +6,10 @@ import { FaLinkedin, FaXTwitter, FaGithub, FaInstagram } from "react-icons/fa6";
 const main = () => {
   return (
     <>
-      <div className="main-wrapper flex justify-between items-center h-screen overflow-hidden pl-16 ml-1 pt-36">
+      <div
+        id="home"
+        className="main-wrapper flex justify-between items-center h-screen overflow-hidden pl-16 ml-1 pt-36"
+      >
         <div className="intro-text w-7/12 text-gray-200 text-3xl font-bold tracking-wider mt-5">
           <h1 className="text py-1 flex items-center space-x-3">
             <span className=" text-white">Hi, I'm</span>
