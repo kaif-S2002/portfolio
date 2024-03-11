@@ -49,7 +49,7 @@ html {
   height: 90vh;
   animation: about-fade-in ease-in-out;
   animation-timeline: scroll();
-  animation-duration: 2s;
+  animation-duration: 1s;
 }
 .about-text span {
   color: rgba(120, 113, 108, 1);
@@ -136,7 +136,7 @@ html {
 @keyframes about-fade-in {
   0% {
     opacity: 0;
-    transform: scale(80%);
+    transform: scale(60%);
   }
   100% {
     opacity: 1;
