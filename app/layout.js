@@ -12,6 +12,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <>
+      <head>
+        <link
+          rel="icon"
+          href="/assets/logo6.png"
+          type="image/png"
+          sizes="32x32"
+        />
+      </head>
       <html lang="en">
         <body className={poppins.className}>{children}</body>
       </html>
