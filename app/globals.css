@@ -54,7 +54,7 @@ html {
   color: rgba(120, 113, 108, 1);
 }
 .skills-wrapper {
-  animation: skills-fade-in 2s ease-in-out;
+  animation: skills-fade-in 4s ease-in-out;
   animation-timeline: scroll();
 }
 
@@ -151,7 +151,7 @@ html {
     opacity: 0;
     transform: translateY(100%);
   }
-  40% {
+  50% {
     opacity: 1;
     transform: translateY(0);
   }
