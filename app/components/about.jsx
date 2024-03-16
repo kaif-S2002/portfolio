@@ -8,7 +8,7 @@ const about = () => {
         id="about"
         className="about-wrapper flex flex-col justify-start items-start text-white px-16 py-28"
       >
-        <div className="about-heading text-3xl text-stone-500 font-bold pb-10">
+        <div className="about-heading text-3xl text-stone-500 font-bold tracking-wider pb-10">
           <h1>{`<About />`}</h1>
         </div>
         <div className="about-text flex text-lg font-light w-full tracking-wider pl-1">
