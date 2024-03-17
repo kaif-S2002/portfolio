@@ -63,7 +63,7 @@ const main = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaLinkedin className="social-icons hover:-translate-y-1 ease-in-out" />
+                <FaLinkedin className="social-icons hover:-translate-y-1 hover:ease-in-out" />
               </a>
             </li>
             <li>
