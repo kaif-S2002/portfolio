@@ -31,7 +31,7 @@ const nav = () => {
             </ul>
           </div>
           <div className="nav-btn">
-            <button className=" text-base bg-stone-600 hover:scale-105 select-none">
+            <button className=" text-base bg-stone-600 hover:scale-105 hover:ease-in-out select-none">
               <a href="#">Resume</a>
             </button>
           </div>
