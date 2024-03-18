@@ -63,7 +63,11 @@ const main = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaLinkedin className="social-icons hover:-translate-y-1 hover:ease-in-out" />
+                <FaLinkedin
+                  className="social-icons hover:-translate-y-1 hover:ease-in-out"
+                  aria-hidden="true"
+                />
+                <span className=" sr-only">Linkedin</span>
               </a>
             </li>
             <li>
@@ -72,7 +76,11 @@ const main = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaXTwitter className="social-icons hover:-translate-y-1 ease-in-out" />
+                <FaXTwitter
+                  className="social-icons hover:-translate-y-1 ease-in-out"
+                  aria-hidden="true"
+                />
+                <span className=" sr-only">Twitter</span>
               </a>
             </li>
             <li>
@@ -81,7 +89,11 @@ const main = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaInstagram className="social-icons hover:-translate-y-1 ease-in-out" />
+                <FaInstagram
+                  className="social-icons hover:-translate-y-1 ease-in-out"
+                  aria-hidden="true"
+                />
+                <span className=" sr-only">Instagram</span>
               </a>
             </li>
             <li>
@@ -90,7 +102,11 @@ const main = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaGithub className="social-icons hover:-translate-y-1 ease-in-out" />
+                <FaGithub
+                  className="social-icons hover:-translate-y-1 ease-in-out"
+                  aria-hidden="true"
+                />
+                <span className=" sr-only">Github</span>
               </a>
             </li>
           </ul>
