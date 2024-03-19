@@ -6,7 +6,7 @@ import { FaLinkedin, FaXTwitter, FaGithub, FaInstagram } from "react-icons/fa6";
 const main = () => {
   return (
     <>
-      <div
+      <section
         id="home"
         className="main-wrapper flex justify-between items-center h-screen overflow-hidden pl-16 ml-1 pt-36"
       >
@@ -120,7 +120,7 @@ const main = () => {
             className="myImg "
           />
         </div>
-      </div>
+      </section>
     </>
   );
 };

@@ -4,7 +4,7 @@ import Image from "next/image";
 const about = () => {
   return (
     <>
-      <div
+      <section
         id="about"
         className="about-wrapper flex flex-col justify-start items-start text-white px-16 py-28"
       >
@@ -35,7 +35,7 @@ const about = () => {
         <div className="greet-text text-lg text-stone-500 font-bold tracking-wider mt-28 pb-1 pl-1 w-full border-b-2 border-stone-500">
           <h1>Thanks for visiting.</h1>
         </div>
-      </div>
+      </section>
     </>
   );
 };

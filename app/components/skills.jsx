@@ -3,7 +3,7 @@ import Skills from "../data/skills";
 
 const skills = () => {
   return (
-    <div
+    <section
       id="skills"
       className="skills-wrapper flex flex-col justify-start items-start h-full text-white px-20 pt-28 pb-16"
     >
@@ -25,7 +25,7 @@ const skills = () => {
           })}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
