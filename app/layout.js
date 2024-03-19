@@ -5,7 +5,7 @@ import "./globals.css";
 const poppins = Poppins({ weight: ["400"], subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio",
+  title: "Kaif Siddiqui - Portfolio",
   description: "Portfolio website created with NextJS.",
 };
 
