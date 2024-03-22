@@ -9,13 +9,13 @@ const projects = () => {
         </div>
         <div className="projects flex justify-evenly w-full">
           <div className="projects-card h-60 w-60 flex justify-center text-white text-lg p-2 rounded-xl bg-zinc-900">
-            News App
+            <h4>News App</h4>
           </div>
           <div className="projects-card h-60 w-60 flex justify-center text-white text-lg p-2 rounded-xl bg-zinc-900">
-            Ecommerce
+            <h4>Ecommerce</h4>
           </div>
           <div className="projects-card h-60 w-60 flex justify-center text-white text-lg p-2 rounded-xl bg-zinc-900">
-            Portfolio
+            <h4>Portfolio</h4>
           </div>
         </div>
       </section>
