@@ -68,6 +68,15 @@ html {
   animation: skills-fade-in 4s ease-in-out;
   animation-timeline: scroll();
 }
+.news-card {
+  transition: ease-in-out 0.5s;
+}
+.ecommerce-card {
+  transition: ease-in-out 0.5s;
+}
+.portfolio-card {
+  transition: ease-in-out 0.5s;
+}
 
 /* @Keyframes */
 
