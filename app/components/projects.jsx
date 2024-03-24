@@ -3,7 +3,10 @@ import React from "react";
 const projects = () => {
   return (
     <>
-      <section className="projects-wrapper flex flex-col justify-center items-center px-16 py-32 h-screen">
+      <section
+        id="projects"
+        className="projects-wrapper flex flex-col justify-center items-center px-16 pt-56 pb-36 h-screen"
+      >
         <div className="projects-heading text-3xl text-stone-500 font-semibold tracking-wider pb-16 ">
           <h1>{`<Projects/>`}</h1>
         </div>
