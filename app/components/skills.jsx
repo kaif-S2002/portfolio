@@ -5,7 +5,7 @@ const skills = () => {
   return (
     <section
       id="skills"
-      className="skills-wrapper flex flex-col justify-start items-start h-full text-white px-20 pt-28 pb-16"
+      className="skills-wrapper flex flex-col justify-start items-start h-full text-white px-20 pt-36"
     >
       <div className="skills-heading text-3xl text-stone-500 font-bold tracking-wider pb-10">
         <h1>{`<Skills />`}</h1>

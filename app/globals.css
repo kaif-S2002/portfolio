@@ -65,7 +65,7 @@ html {
   color: rgba(120, 113, 108, 1);
 }
 .skills-wrapper {
-  animation: skills-fade-in 4s ease-in-out;
+  animation: skills-fade-in 2s ease-in-out;
   animation-timeline: scroll();
 }
 .news-card {
@@ -169,10 +169,10 @@ html {
 @keyframes skills-fade-in {
   0% {
     opacity: 0;
-    transform: translateY(100%);
+    transform: scale(40%);
   }
-  50% {
+  65% {
     opacity: 1;
-    transform: translateY(0);
+    transform: scale(100%);
   }
 }
