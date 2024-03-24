@@ -9,14 +9,14 @@ const projects = () => {
         </div>
         <div className="projects flex justify-center gap-2 text-stone-500 w-full">
           <div
-            className={`projects-card news-card h-60 w-64 flex justify-center text-lg p-2 rounded-xl bg-zinc-950 hover:w-6/12 hover:scale-105 hover:shadow-lg`}
+            className={`projects-card news-card h-64 w-64 flex justify-center text-lg p-2 rounded-xl bg-zinc-950 hover:w-6/12 hover:scale-105 hover:shadow-lg`}
           >
             <h4>News App</h4>
           </div>
-          <div className="projects-card ecommerce-card h-60 w-64 flex justify-center text-lg p-2 rounded-xl bg-zinc-950 hover:w-6/12 hover:scale-105 hover:shadow-lg">
+          <div className="projects-card ecommerce-card h-64 w-64 flex justify-center text-lg p-2 rounded-xl bg-zinc-950 hover:w-6/12 hover:scale-105 hover:shadow-lg">
             <h4>Ecommerce</h4>
           </div>
-          <div className="projects-card portfolio-card h-60 w-64 flex justify-center text-lg p-2 rounded-xl bg-zinc-950 hover:w-6/12 hover:scale-105 hover:shadow-lg">
+          <div className="projects-card portfolio-card h-64 w-64 flex justify-center text-lg p-2 rounded-xl bg-zinc-950 hover:w-6/12 hover:scale-105 hover:shadow-lg">
             <h4>Portfolio</h4>
           </div>
         </div>
