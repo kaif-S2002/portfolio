@@ -25,7 +25,7 @@ const projects = () => {
           </div>
           <div className="projects-card ecommerce-card h-64 w-64 flex flex-col justify-between items-center text-lg p-2 rounded-xl bg-zinc-950 hover:w-6/12">
             <div className="">
-              <h4>Ecommerce</h4>
+              <h4>Portfolio</h4>
             </div>
             <div className=" pb-10 text-stone-600">
               <BsPersonWorkspace size={120} />
@@ -33,7 +33,7 @@ const projects = () => {
           </div>
           <div className="projects-card portfolio-card h-64 w-64 flex flex-col justify-between items-center text-lg p-2 rounded-xl bg-zinc-950 hover:w-6/12 ">
             <div className="">
-              <h4>Portfolio</h4>
+              <h4>Ecommerce</h4>
             </div>
             <div className=" pb-10 text-stone-600">
               <FaCartShopping size={120} />
