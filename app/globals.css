@@ -166,7 +166,7 @@ html {
     transform: scale(100%);
   }
 }
-@keyframes skills-fade-in {
+/* @keyframes skills-fade-in {
   0% {
     opacity: 0;
     transform: scale(40%);
@@ -175,4 +175,4 @@ html {
     opacity: 1;
     transform: scale(100%);
   }
-}
+} */
