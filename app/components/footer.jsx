@@ -3,7 +3,7 @@ import React from "react";
 const footer = () => {
   return (
     <>
-      <footer className="footer-wrapper flex flex-col justify-center items-center gap-4 p-6 text-2xl text-white ">
+      <footer className="footer-wrapper flex flex-col justify-center items-center gap-4 p-4 text-2xl text-white ">
         <h2 className=" text-stone-500 tracking-wide">
           Kaif Siddiqui &middot; Frontend Web Developer
         </h2>
