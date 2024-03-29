@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const footer = () => {
   return (
@@ -7,9 +8,34 @@ const footer = () => {
         <h2 className=" text-stone-500 tracking-wide">
           Kaif Siddiqui &middot; Frontend Web Developer
         </h2>
-        <h3 className=" text-xl tracking-wide">
-          Linkedin &middot; Twitter &middot; Github
-        </h3>
+        <div className=" text-xl tracking-wide select-none">
+          <Link
+            className="footer-links "
+            href="http://www.linkedin.com/in/kaifsiddiqui02"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Linkedin
+          </Link>{" "}
+          &middot;{" "}
+          <Link
+            className="footer-links "
+            href="https://twitter.com/kaifsiddiqui__"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Twitter
+          </Link>{" "}
+          &middot;{" "}
+          <Link
+            className="footer-links "
+            href="https://github.com/kaif-S2002"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github
+          </Link>
+        </div>
         <p className=" text-sm pt-6">
           <small>&copy;2024 Kaif Siddiqui. All rights reserved.</small>
         </p>
