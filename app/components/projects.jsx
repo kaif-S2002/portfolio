@@ -23,7 +23,7 @@ const projects = () => {
               <FaNewspaper size={120} />
             </div>
           </div>
-          <div className="projects-card ecommerce-card h-64 w-64 flex flex-col justify-between items-center text-lg p-2 rounded-xl bg-zinc-950 hover:w-6/12">
+          <div className="projects-card portfolio-card h-64 w-64 flex flex-col justify-between items-center text-lg p-2 rounded-xl bg-zinc-950 hover:w-6/12">
             <div className="">
               <h4>Portfolio</h4>
             </div>
@@ -31,7 +31,7 @@ const projects = () => {
               <BsPersonWorkspace size={120} />
             </div>
           </div>
-          <div className="projects-card portfolio-card h-64 w-64 flex flex-col justify-between items-center text-lg p-2 rounded-xl bg-zinc-950 hover:w-6/12 ">
+          <div className="projects-card ecommerce-card h-64 w-64 flex flex-col justify-between items-center text-lg p-2 rounded-xl bg-zinc-950 hover:w-6/12 ">
             <div className="">
               <h4>Ecommerce</h4>
             </div>
