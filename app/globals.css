@@ -16,7 +16,6 @@ body::-webkit-scrollbar-thumb {
 }
 .nav-ul li {
   padding: 6px;
-  border-radius: 10px;
   cursor: pointer;
   position: relative;
 }
