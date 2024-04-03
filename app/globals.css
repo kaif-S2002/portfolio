@@ -63,11 +63,11 @@ body::-webkit-scrollbar-thumb {
 .social-links {
   animation: social-links-fade-in 1.5s ease-in-out;
 }
-.about-wrapper {
+/* .about-wrapper {
   height: 90vh;
-  /* animation: about-fade-in 1s ease-in-out;
-  animation-timeline: scroll(); */
-}
+  animation: about-fade-in 1s ease-in-out;
+  animation-timeline: scroll();
+} */
 .about-text span {
   color: rgba(120, 113, 108, 1);
 }
