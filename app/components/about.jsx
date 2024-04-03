@@ -6,12 +6,12 @@ const about = () => {
     <>
       <section
         id="about"
-        className="about-wrapper flex flex-col justify-start items-start text-white px-16 py-28"
+        className="about-wrapper flex flex-col justify-start items-start text-white px-16 pt-28 m-auto h-fit"
       >
-        <div className="about-heading text-3xl text-stone-500 font-bold tracking-wider pb-10">
+        <div className="about-heading text-3xl text-stone-500 font-bold tracking-wider pb-5">
           <h1>{`<About />`}</h1>
         </div>
-        <div className="about-text flex text-lg font-light w-full tracking-wider pl-1">
+        <div className="about-text flex text-lg font-light w-full tracking-wider pl-1 pt-12 pb-28">
           <p>
             Hi, I’m Kaif Siddiqui a{" "}
             <span>self-taught frontend web developer</span> based out of{" "}
@@ -32,7 +32,7 @@ const about = () => {
             />
           </div>
         </div>
-        <div className="greet-text text-lg text-stone-500 font-bold tracking-wider mt-32 pb-1 pl-1 w-full border-b-2 border-stone-500">
+        <div className="greet-text text-lg text-stone-500 font-bold tracking-wider pb-1 pl-1 w-full border-b-2 border-stone-500">
           <h1>Thanks for visiting.</h1>
         </div>
       </section>
