@@ -32,7 +32,7 @@ const about = () => {
             />
           </div>
         </div>
-        <div className="greet-text text-lg text-stone-500 font-bold tracking-wider mt-28 pb-1 pl-1 w-full border-b-2 border-stone-500">
+        <div className="greet-text text-lg text-stone-500 font-bold tracking-wider mt-32 pb-1 pl-1 w-full border-b-2 border-stone-500">
           <h1>Thanks for visiting.</h1>
         </div>
       </section>
