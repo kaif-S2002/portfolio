@@ -71,10 +71,10 @@ body::-webkit-scrollbar-thumb {
 .about-text span {
   color: rgba(120, 113, 108, 1);
 }
-.skills-wrapper {
+/* .skills-wrapper {
   animation: skills-fade-in 2s ease-in-out;
   animation-timeline: scroll();
-}
+} */
 .news-card {
   transition: ease-in-out 0.5s;
 }
@@ -83,6 +83,9 @@ body::-webkit-scrollbar-thumb {
 }
 .portfolio-card {
   transition: ease-in-out 0.5s;
+}
+.skills-list {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .footer-links:hover {
   color: rgba(120, 113, 108, 1);
@@ -177,7 +180,7 @@ body::-webkit-scrollbar-thumb {
     transform: scale(100%);
   }
 }
-/* @keyframes skills-fade-in {
+@keyframes skills-fade-in {
   0% {
     opacity: 0;
     transform: scale(40%);
@@ -186,4 +189,4 @@ body::-webkit-scrollbar-thumb {
     opacity: 1;
     transform: scale(100%);
   }
-} */
+}
