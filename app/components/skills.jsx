@@ -7,7 +7,7 @@ import {
   RiReactjsFill,
 } from "react-icons/ri";
 import { SiTailwindcss } from "react-icons/si";
-import { TbBrandVscode } from "react-icons/tb";
+import { TbBrandNextjs } from "react-icons/tb";
 import { FaGitAlt, FaGithub } from "react-icons/fa";
 
 const skills = () => {
@@ -60,7 +60,14 @@ const skills = () => {
           <i>
             <RiReactjsFill size={80} />
           </i>
-          <h4>React</h4>
+          <h4>React JS</h4>
+        </div>
+
+        <div className=" flex flex-col justify-center items-center">
+          <i>
+            <TbBrandNextjs size={80} />
+          </i>
+          <h4>Next JS</h4>
         </div>
 
         <div className=" flex flex-col justify-center items-center">
@@ -82,13 +89,6 @@ const skills = () => {
             <FaGithub size={80} />
           </i>
           <h4>Github</h4>
-        </div>
-
-        <div className=" flex flex-col justify-center items-center">
-          <i>
-            <TbBrandVscode size={80} />
-          </i>
-          <h4>VsCode</h4>
         </div>
       </div>
     </section>
