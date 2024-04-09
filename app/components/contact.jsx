@@ -3,7 +3,10 @@ import React from "react";
 const contact = () => {
   return (
     <>
-      <section className="contact-wrapper flex flex-col justify-between items-center h-screen text-white px-20 pt-36">
+      <section
+        id="contact"
+        className="contact-wrapper flex flex-col justify-between items-center h-screen text-white px-20 pt-28 pb-2"
+      >
         <div className="contact-heading text-3xl text-stone-500 font-bold tracking-wider pb-10">
           <h2>{`<Contact/>`}</h2>
         </div>
