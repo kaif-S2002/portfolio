@@ -4,7 +4,10 @@ import Link from "next/link";
 const footer = () => {
   return (
     <>
-      <footer className="footer-wrapper flex flex-col justify-center items-center gap-4 p-4 h-fit text-3xl text-white ">
+      <footer
+        id="contact"
+        className="footer-wrapper flex flex-col justify-center items-center gap-4 p-4 h-fit text-3xl text-white "
+      >
         <h2 className=" text-stone-500 tracking-wide pt-4">
           Kaif Siddiqui &middot; Frontend Web Developer
         </h2>
