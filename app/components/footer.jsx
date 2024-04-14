@@ -39,7 +39,7 @@ const footer = () => {
             Github
           </Link>
         </div>
-        <p className=" text-sm pt-8">
+        <p className="copyright text-xs pt-6">
           <small>&copy;2024 Kaif Siddiqui. All rights reserved.</small>
         </p>
       </footer>
