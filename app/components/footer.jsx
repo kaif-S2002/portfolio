@@ -4,11 +4,14 @@ import Link from "next/link";
 const footer = () => {
   return (
     <>
-      <footer className="footer-wrapper flex flex-col justify-center items-center gap-4 p-4 h-fit text-2xl text-white ">
-        <h2 className=" text-stone-500 tracking-wide pt-5">
+      <footer className="footer-wrapper flex flex-col justify-center items-center gap-4 p-4 h-fit text-3xl text-white ">
+        <h2 className=" text-stone-500 tracking-wide pt-4">
           Kaif Siddiqui &middot; Frontend Web Developer
         </h2>
-        <div className=" text-xl tracking-wide select-none">
+        <p className=" text-sm text-stone-500 ">
+          Phone No: +91-9310****** | Email: kaifs8998@gmail.com
+        </p>
+        <div className=" text-xl tracking-wider select-none">
           <Link
             className="footer-links "
             href="http://www.linkedin.com/in/kaifsiddiqui02"
@@ -36,7 +39,7 @@ const footer = () => {
             Github
           </Link>
         </div>
-        <p className=" text-sm pt-6">
+        <p className=" text-sm pt-8">
           <small>&copy;2024 Kaif Siddiqui. All rights reserved.</small>
         </p>
       </footer>
