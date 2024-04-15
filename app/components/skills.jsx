@@ -1,5 +1,4 @@
 import React from "react";
-import Skills from "../data/skills";
 import {
   RiJavascriptFill,
   RiHtml5Fill,
@@ -11,10 +10,21 @@ import { TbBrandNextjs } from "react-icons/tb";
 import { FaGitAlt, FaGithub } from "react-icons/fa";
 
 const skills = () => {
+  const skillsData = [
+    { icon: <RiJavascriptFill size={80} />, title: "Javascript" },
+    { icon: <RiHtml5Fill size={80} />, title: "HTML" },
+    { icon: <RiCss3Fill size={80} />, title: "CSS" },
+    { icon: <RiReactjsFill size={80} />, title: "React JS" },
+    { icon: <TbBrandNextjs size={80} />, title: "Next JS" },
+    { icon: <SiTailwindcss size={80} />, title: "Tailwind CSS" },
+    { icon: <FaGitAlt size={80} />, title: "Git" },
+    { icon: <FaGithub size={80} />, title: "GitHub" },
+  ];
+
   return (
     <section
       id="skills"
-      className="skills-wrapper flex flex-col justify-start items-center h-screen text-white px-20 pt-32 overflow-hidden"
+      className="skills-wrapper flex flex-col justify-start items-center h-fit text-white px-20 pt-28 overflow-hidden"
     >
       <div className="skills-heading text-3xl text-stone-500 font-bold tracking-wider pb-10">
         <h1>{`<Skills />`}</h1>
@@ -23,63 +33,19 @@ const skills = () => {
       <div className=" flex justify-between items-center gap-16 w-full">
         <div className=" flex h-0.5 bg-stone-500 rounded-xl w-full"></div>
 
-        <div className="skills-list grid justify-center items-center gap-12 pt-8 text-stone-500 text-xs tracking-wide h-fit">
-          <div className=" flex flex-col justify-center items-center">
-            <i>
-              <RiJavascriptFill size={80} />
-            </i>
-            <h4>Javascript</h4>
-          </div>
-
-          <div className=" flex flex-col justify-center items-center">
-            <i>
-              <RiHtml5Fill size={80} />
-            </i>
-            <h4>HTML</h4>
-          </div>
-
-          <div className=" flex flex-col justify-center items-center">
-            <i>
-              <RiCss3Fill size={80} />
-            </i>
-            <h4>CSS</h4>
-          </div>
-
-          <div className=" flex flex-col justify-center items-center">
-            <i>
-              <RiReactjsFill size={80} />
-            </i>
-            <h4>React JS</h4>
-          </div>
-
-          <div className=" flex flex-col justify-center items-center">
-            <i>
-              <TbBrandNextjs size={80} />
-            </i>
-            <h4>Next JS</h4>
-          </div>
-
-          <div className=" flex flex-col justify-center items-center">
-            <i>
-              <SiTailwindcss size={80} />
-            </i>
-            <h4>Tailwind CSS</h4>
-          </div>
-
-          <div className=" flex flex-col justify-center items-center">
-            <i>
-              <FaGitAlt size={80} />
-            </i>
-            <h4>Git</h4>
-          </div>
-
-          <div className=" flex flex-col justify-center items-center">
-            <i>
-              <FaGithub size={80} />
-            </i>
-            <h4>Github</h4>
-          </div>
+        <div className="skills-list grid justify-center items-center gap-10 pt-8 text-stone-500 text-xs tracking-wide h-fit">
+          {skillsData.map((...[data]) => {
+            return (
+              <>
+                <div className=" flex flex-col justify-center items-center bg-zinc-950 p-4 rounded-xl">
+                  <i>{data.icon}</i>
+                  <h4>{data.title}</h4>
+                </div>
+              </>
+            );
+          })}
         </div>
+
         <div className=" flex h-0.5 bg-stone-500 rounded-xl w-full"></div>
       </div>
     </section>
