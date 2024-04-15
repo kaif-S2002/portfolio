@@ -33,13 +33,13 @@ const skills = () => {
       <div className=" flex justify-between items-center gap-16 w-full">
         <div className=" flex h-0.5 bg-stone-500 rounded-xl w-full"></div>
 
-        <div className="skills-list grid justify-center items-center gap-10 pt-8 text-stone-500 text-xs tracking-wide h-fit">
+        <div className="skills-list grid justify-center items-center gap-8 pt-6 text-stone-500 text-xs tracking-wide h-fit">
           {skillsData.map((...[data]) => {
             return (
               <>
-                <div className=" flex flex-col justify-center items-center bg-zinc-950 p-4 rounded-xl">
+                <div className="skills-list-items flex flex-col justify-center items-center bg-zinc-950 py-4 px-6 rounded-xl">
                   <i>{data.icon}</i>
-                  <h4>{data.title}</h4>
+                  <h4 className=" pt-2">{data.title}</h4>
                 </div>
               </>
             );
