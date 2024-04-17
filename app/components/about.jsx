@@ -6,12 +6,12 @@ const about = () => {
     <>
       <section
         id="about"
-        className="about-wrapper flex flex-col text-white px-16 pt-28 m-auto h-fit"
+        className="about-wrapper flex flex-col text-white px-16 pt-40 m-auto h-fit"
       >
-        <div className="about-heading flex justify-center items-center text-3xl text-stone-500 font-bold tracking-wider pb-4">
+        <div className="about-heading flex justify-center items-center text-3xl text-stone-500 font-bold tracking-wider">
           <h1>{`<About />`}</h1>
         </div>
-        <div className="about-text flex text-lg font-light w-full tracking-widest pl-1 pt-16">
+        <div className="about-text flex justify-between items-center w-full text-lg text-wrap tracking-widest pl-6 pt-20 pb-5">
           <p>
             Hi, I’m Kaif Siddiqui a{" "}
             <span>self-taught frontend web developer</span> based out of{" "}
@@ -23,7 +23,7 @@ const about = () => {
             hunting for an opportunity for a frontend web developer role as my
             professional career.
           </p>
-          <div className="sign-image pl-8 shrink-0">
+          <div className="sign-image flex justify-center items-center pl-10 shrink-0">
             <Image
               src={"/assets/logo6.png"}
               alt="sign"
