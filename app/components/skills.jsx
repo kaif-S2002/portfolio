@@ -24,9 +24,9 @@ const skills = () => {
   return (
     <section
       id="skills"
-      className="skills-wrapper flex flex-col justify-start items-center h-fit text-white px-20 pt-28 overflow-hidden"
+      className="skills-wrapper flex flex-col justify-start items-center h-fit text-white px-20 pt-32 overflow-hidden"
     >
-      <div className="skills-heading text-3xl text-stone-500 font-bold tracking-wider pb-10">
+      <div className="skills-heading text-3xl text-stone-500 font-bold tracking-wider pb-6">
         <h1>{`<Skills />`}</h1>
       </div>
 
