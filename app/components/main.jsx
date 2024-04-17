@@ -8,7 +8,7 @@ const main = () => {
     <>
       <section
         id="home"
-        className="main-wrapper flex justify-between items-center h-screen overflow-hidden pl-16 ml-1 pt-36"
+        className="main-wrapper flex justify-between items-center h-fit overflow-hidden pl-16 ml-1 pt-36"
       >
         <div className="intro-text w-7/12 text-gray-200 text-3xl font-bold tracking-wider mt-5">
           <h1 className="text py-1 flex items-center space-x-3">
