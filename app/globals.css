@@ -63,18 +63,9 @@ body::-webkit-scrollbar-thumb {
 .social-links {
   animation: social-links-fade-in 1.5s ease-in-out;
 }
-/* .about-wrapper {
-  height: 90vh;
-  animation: about-fade-in 1s ease-in-out;
-  animation-timeline: scroll();
-} */
 .about-text span {
   color: rgba(120, 113, 108, 1);
 }
-/* .skills-wrapper {
-  animation: skills-fade-in 2s ease-in-out;
-  animation-timeline: scroll();
-} */
 .news-card {
   transition: ease-in-out 0.5s;
 }
@@ -168,25 +159,5 @@ body::-webkit-scrollbar-thumb {
   100% {
     opacity: 1;
     transform: translateX(0);
-  }
-}
-@keyframes about-fade-in {
-  0% {
-    opacity: 0;
-    transform: scale(50%);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(100%);
-  }
-}
-@keyframes skills-fade-in {
-  0% {
-    opacity: 0;
-    transform: scale(40%);
-  }
-  65% {
-    opacity: 1;
-    transform: scale(100%);
   }
 }
