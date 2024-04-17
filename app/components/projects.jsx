@@ -7,7 +7,7 @@ const projects = () => {
     <>
       <section
         id="projects"
-        className="projects-wrapper flex flex-col justify-center items-center px-16 pt-24 h-screen"
+        className="projects-wrapper flex flex-col justify-center items-center px-16 py-32 h-fit"
       >
         <div className="projects-heading text-3xl text-stone-500 font-semibold tracking-wider pb-16 ">
           <h1>{`<Projects/>`}</h1>
