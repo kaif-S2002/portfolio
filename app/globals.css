@@ -66,8 +66,10 @@ body::-webkit-scrollbar-thumb {
 .about-text span {
   color: rgba(120, 113, 108, 1);
 }
-.news-card {
+.projects-card {
   transition: ease-in-out 0.5s;
+  overflow: hidden;
+  cursor: pointer;
 }
 .ecommerce-card {
   transition: ease-in-out 0.5s;
