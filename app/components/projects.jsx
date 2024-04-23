@@ -12,7 +12,7 @@ const projects = () => {
         <div className="projects-heading text-3xl text-stone-500 font-semibold tracking-wider pb-16 ">
           <h1>{`<Projects/>`}</h1>
         </div>
-        <div className="projects flex flex-col gap-20 text-stone-500 w-full text-xl">
+        <div className="projects flex flex-col gap-20 text-stone-500 w-full text-xl tracking-wider">
           <div
             id="news-card"
             className={`projects-card news-card flex justify-around items-center gap-6  h-64 w-7/12 p-2 rounded-xl bg-zinc-950`}
@@ -21,7 +21,8 @@ const projects = () => {
             <div className=" flex flex-col w-6/12 gap-4">
               <h4>News App</h4>
               <p className=" text-sm">
-                Javascript, HTML, CSS, React JS, API's, JSON etc.
+                Javascript, HTML, CSS, React JS, API's, React-hooks, JSON,
+                Fetch/Async-await etc.
               </p>
             </div>
           </div>
@@ -37,7 +38,7 @@ const projects = () => {
             <div className=" flex flex-col w-6/12 gap-4">
               <h4>Portfolio</h4>
               <p className=" text-sm">
-                Javascript, HTML, CSS, Next JS, Tailwind CSS etc.
+                Javascript, HTML, CSS, Next JS, Tailwind-CSS, UI/UX etc.
               </p>
             </div>
           </div>
