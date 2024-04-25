@@ -61,7 +61,7 @@ const projects = () => {
               <div className="project-links flex justify-between items-center pr-10 text-sm mt-4 tracking-widest">
                 <a
                   className=" text-white hover:text-stone-500"
-                  href="#"
+                  href="https://github.com/kaif-S2002/portfolio"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
