@@ -24,6 +24,24 @@ const projects = () => {
                 Javascript, HTML, CSS, React JS, API's, React-hooks, JSON,
                 Fetch/Async-await etc.
               </p>
+              <div className="project-links flex justify-between items-center pr-10 text-sm mt-4 tracking-widest">
+                <a
+                  className=" text-white hover:text-stone-500"
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Github &#8594;
+                </a>
+                <a
+                  className=" text-white hover:text-stone-500"
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Visit &#8599;
+                </a>
+              </div>
             </div>
           </div>
 
@@ -40,6 +58,24 @@ const projects = () => {
               <p className=" text-sm">
                 Javascript, HTML, CSS, Next JS, Tailwind-CSS, UI/UX etc.
               </p>
+              <div className="project-links flex justify-between items-center pr-10 text-sm mt-4 tracking-widest">
+                <a
+                  className=" text-white hover:text-stone-500"
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Github &#8594;
+                </a>
+                <a
+                  className=" text-white hover:text-stone-500"
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Visit &#8599;
+                </a>
+              </div>
             </div>
           </div>
           <div
