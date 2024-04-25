@@ -27,7 +27,7 @@ const projects = () => {
               <div className="project-links flex justify-start items-center gap-20 text-sm mt-4 tracking-widest">
                 <a
                   className=" text-white hover:text-stone-500"
-                  href="#"
+                  href="https://github.com/kaif-S2002/news-app"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -35,7 +35,7 @@ const projects = () => {
                 </a>
                 <a
                   className=" text-white hover:text-stone-500"
-                  href="#"
+                  href="https://kaif-s2002.github.io/news-app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
