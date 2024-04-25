@@ -65,15 +65,7 @@ const projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Github &#8594;
-                </a>
-                <a
-                  className=" text-white hover:text-stone-500"
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Visit &#8599;
+                  Github <span className=" ml-1">&#8594;</span>
                 </a>
               </div>
             </div>
