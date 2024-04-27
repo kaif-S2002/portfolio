@@ -67,6 +67,8 @@ body::-webkit-scrollbar-thumb {
   color: rgba(120, 113, 108, 1);
 }
 .projects-card {
+  width: 40rem;
+  height: 14rem;
   transition: ease-in-out 0.5s;
   overflow: hidden;
   cursor: pointer;

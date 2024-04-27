@@ -15,7 +15,7 @@ const projects = () => {
         <div className="projects flex flex-col gap-20 text-stone-500 w-full text-xl tracking-wider">
           <div
             id="news-card"
-            className={`projects-card news-card flex justify-around items-center gap-6  h-64 w-7/12 p-2 rounded-xl bg-zinc-950`}
+            className={`projects-card news-card flex justify-around items-center gap-6 p-2 rounded-xl bg-zinc-950`}
           >
             <FaNewspaper size={120} className="projects-icon text-stone-600" />
             <div className=" flex flex-col w-6/12 gap-4">
@@ -47,7 +47,7 @@ const projects = () => {
 
           <div
             id="portfolio-card"
-            className={`projects-card portfolio-card flex justify-around items-center gap-6 h-64 w-7/12 p-2 rounded-xl bg-zinc-950`}
+            className={`projects-card portfolio-card flex justify-around items-center gap-6 p-2 rounded-xl bg-zinc-950`}
           >
             <BsPersonWorkspace
               size={120}
@@ -72,7 +72,7 @@ const projects = () => {
           </div>
           <div
             id="ecommerce-card"
-            className={`projects-card ecommerce-card flex justify-around items-center gap-6  h-64 w-7/12 p-2 rounded-xl bg-zinc-950`}
+            className={`projects-card ecommerce-card flex justify-around items-center gap-6 p-2 rounded-xl bg-zinc-950`}
           >
             <FaCartShopping
               size={120}
