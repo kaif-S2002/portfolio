@@ -87,9 +87,19 @@ body::-webkit-scrollbar-thumb {
 .skills-list {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.footer-links:hover {
-  color: var(--primary-color);
-  transition: all 0.2s ease-in-out;
+.contact-links a:hover {
+  color: rgb(226 232 240 / 1);
+}
+.top-btn a {
+  font-size: large;
+  font-weight: 600;
+  border: 1.5px solid;
+  border-radius: 100%;
+  padding: 6px 14px;
+  background: transparent;
+}
+.top-btn a:hover {
+  color: rgb(226 232 240 / 1);
 }
 
 /* @Keyframes */

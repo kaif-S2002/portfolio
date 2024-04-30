@@ -4,41 +4,15 @@ import Link from "next/link";
 const footer = () => {
   return (
     <>
-      <footer className="footer-wrapper flex flex-col justify-center items-center gap-4 p-4 h-fit text-3xl text-white ">
-        <h2 className=" text-stone-500 tracking-wide pt-4">
-          Kaif Siddiqui &middot; Frontend Web Developer
-        </h2>
-        <div className=" text-xl tracking-wider select-none">
-          <Link
-            className="footer-links "
-            href="http://www.linkedin.com/in/kaifsiddiqui02"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Linkedin
-          </Link>{" "}
-          &middot;{" "}
-          <Link
-            className="footer-links "
-            href="https://twitter.com/kaifsiddiqui__"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Twitter
-          </Link>{" "}
-          &middot;{" "}
-          <Link
-            className="footer-links "
-            href="https://github.com/kaif-S2002"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Github
-          </Link>
-        </div>
-        <p className="copyright text-xs pt-6">
-          <small>&copy;2024 Kaif Siddiqui. All rights reserved.</small>
-        </p>
+      <footer
+        id="footer"
+        className="footer-wrapper flex justify-between items-center mx-12 mb-8 text-stone-600 text-xs"
+      >
+        <p>&copy;2024 Kaif Siddiqui. All rights reserved.</p>
+        <button className="top-btn -translate-y-14">
+          <a href="#home">&#8593;</a>
+        </button>
+        <p>Kaif siddiqui &middot; frontend web developer</p>
       </footer>
     </>
   );
