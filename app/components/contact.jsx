@@ -7,37 +7,38 @@ function contact() {
     <>
       <section
         id="contact"
-        className="contact-wrapper flex flex-col text-white px-16 pt-32 m-auto h-fit"
+        className="contact-wrapper flex flex-col justify-evenly items-center text-2xl text-stone-600 px-16 h-96 mb-24 tracking-wider"
       >
-        <div className="contact-heading flex justify-center items-center text-3xl text-stone-500 font-bold tracking-wider">
-          <h1>{`<Contact />`}</h1>
-        </div>
-
-        <div className="contact-items flex flex-col justify-center items-center text-stone-500 tracking-wider pb-24 pt-20">
-          <div className=" flex gap-20 pb-10">
-            <div className="contact-num flex justify-center items-center gap-4 p-4 bg-zinc-950 rounded-xl">
-              <i className="num-icon">
-                <FaPhone size={20} />
-              </i>
-              <span>+91-9310******</span>
-            </div>
-            <div className="contact-email flex justify-center items-center gap-4 p-4 bg-zinc-950 rounded-xl">
-              <i className="email-icon">
-                <MdEmail size={25} />
-              </i>
-              <span>kaifs8998@gmail.com</span>
-            </div>
-          </div>
-
-          <div className="location-detail flex justify-center items-center gap-4 p-4 bg-zinc-950 rounded-xl">
-            <i className="location-icon">
-              <FaLocationDot size={20} />
-            </i>
-            <span>Greater Noida, UP, INDIA.</span>
-          </div>
-        </div>
-        <div className="greet-text text-lg text-stone-500 font-bold tracking-wider pb-1 pl-1 w-full border-b-2 border-stone-500">
-          <h1>Thanks for visiting.</h1>
+        <div className=" text-3xl">{`<Contact />`}</div>
+        <div className="contact-links flex justify-evenly items-center w-full">
+          <a
+            href="mailto:kaifs8998@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            E-mail
+          </a>
+          <a
+            href="http://www.linkedin.com/in/kaifsiddiqui02"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Linkedin
+          </a>
+          <a
+            href="https://github.com/kaif-S2002"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github
+          </a>
+          <a
+            href="https://twitter.com/kaifsiddiqui__"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Twitter
+          </a>
         </div>
       </section>
     </>
