@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --primary-color: rgba(120, 113, 108, 1);
+}
+
 html {
   scroll-behavior: smooth;
   background-color: black;
@@ -11,7 +15,7 @@ body::-webkit-scrollbar {
   background: rgb(9, 9, 11, 1);
 }
 body::-webkit-scrollbar-thumb {
-  background: rgba(120, 113, 108, 1);
+  background-color: var(--primary-color);
   border-radius: 2px;
 }
 .nav-ul li {
@@ -23,7 +27,7 @@ body::-webkit-scrollbar-thumb {
   content: "";
   width: 0;
   height: 2px;
-  background: rgba(120, 113, 108, 1);
+  background-color: var(--primary-color);
   position: absolute;
   left: 0;
   bottom: 0;
@@ -55,7 +59,7 @@ body::-webkit-scrollbar-thumb {
   animation: text-summary-fade-in 1.4s ease-in-out;
 }
 .text-summary span {
-  color: rgba(120, 113, 108, 1);
+  color: var(--primary-color);
 }
 .text-contact {
   animation: text-contact-fade-in 1.4s ease-in-out;
@@ -64,7 +68,7 @@ body::-webkit-scrollbar-thumb {
   animation: social-links-fade-in 1.5s ease-in-out;
 }
 .about-text span {
-  color: rgba(120, 113, 108, 1);
+  color: var(--primary-color);
 }
 .projects-card {
   width: 40rem;
@@ -84,7 +88,7 @@ body::-webkit-scrollbar-thumb {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .footer-links:hover {
-  color: rgba(120, 113, 108, 1);
+  color: var(--primary-color);
   transition: all 0.2s ease-in-out;
 }
 
