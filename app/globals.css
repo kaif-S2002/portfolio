@@ -43,7 +43,6 @@ body::-webkit-scrollbar-thumb {
 }
 .myImg {
   animation: img-fade-in 1.2s ease-in-out;
-
   background-blend-mode: screen;
 }
 .intro-text {
@@ -87,6 +86,9 @@ body::-webkit-scrollbar-thumb {
 .skills-list {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+.contact-wrapper {
+  height: 32rem;
+}
 .contact-links a:hover {
   color: rgb(226 232 240 / 1);
 }
@@ -118,11 +120,11 @@ body::-webkit-scrollbar-thumb {
 @keyframes img-fade-in {
   0% {
     opacity: 0;
-    transform: translateY(100%);
+    transform: translateX(100%);
   }
   100% {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateX(0);
   }
 }
 
