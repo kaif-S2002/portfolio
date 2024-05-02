@@ -7,7 +7,7 @@ function contact() {
     <>
       <section
         id="contact"
-        className="contact-wrapper flex flex-col justify-evenly items-center text-2xl text-stone-600 px-16 h-96 mb-24 tracking-wider"
+        className="contact-wrapper flex flex-col justify-evenly items-center text-2xl text-stone-600 px-16 tracking-wider"
       >
         <div className=" text-3xl">{`<Contact />`}</div>
         <div className="contact-links flex justify-evenly items-center w-full">
