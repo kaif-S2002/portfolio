@@ -6,10 +6,10 @@ const footer = () => {
     <>
       <footer
         id="footer"
-        className="footer-wrapper flex justify-between items-center mx-12 mb-8 text-stone-600 text-xs"
+        className="footer-wrapper flex justify-between items-end mx-12 mb-8 text-stone-600 text-xs"
       >
         <p>&copy;2024 Kaif Siddiqui. All rights reserved.</p>
-        <button className="top-btn -translate-y-14">
+        <button className="top-btn pb-12">
           <a href="#home">&#8593;</a>
         </button>
         <p>Kaif siddiqui &middot; frontend web developer</p>
