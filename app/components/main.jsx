@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Typewriter } from "nextjs-simple-typewriter";
 import { FaLinkedin, FaXTwitter, FaGithub, FaInstagram } from "react-icons/fa6";
+import { SiGmail } from "react-icons/si";
 
 const main = () => {
   return (
@@ -85,15 +86,15 @@ const main = () => {
             </li>
             <li>
               <a
-                href="https://www.instagram.com/__kaif.siddiqui__/"
+                href="mailto:kaifs8998@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaInstagram
+                <SiGmail
                   className="social-icons hover:-translate-y-1 ease-in-out"
                   aria-hidden="true"
                 />
-                <span className=" sr-only">Instagram</span>
+                <span className=" sr-only">Gmail</span>
               </a>
             </li>
             <li>
