@@ -45,10 +45,8 @@ const main = () => {
             </span>
           </h1>
           <p className="text-summary text-sm font-light w-9/12 pt-4 pb-12">
-            <span className=" text-lg !text-white">
-              Welcome to my portfolio!
-            </span>{" "}
-            I translate ideas into visually stunning and functionally robust{" "}
+            <span className=" text-lg">Welcome to my portfolio!</span> I
+            translate ideas into visually stunning and functionally robust{" "}
             <span>web solutions</span>. Craft with intuitive{" "}
             <span>user experiences</span> through clean,{" "}
             <span>responsive design</span> and{" "}
