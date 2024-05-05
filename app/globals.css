@@ -182,3 +182,22 @@ body::-webkit-scrollbar-thumb {
     transform: translateX(0);
   }
 }
+
+/* media-queries */
+
+@media screen and (max-width: 1024px) {
+  .main-img {
+    display: none;
+  }
+  .main-wrapper {
+    justify-content: center;
+  }
+  .intro-text {
+    font-size: 2rem;
+    width: fit-content;
+  }
+  .text-summary {
+    font-size: 1rem;
+    width: 90%;
+  }
+}
