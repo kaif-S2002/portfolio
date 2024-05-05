@@ -10,7 +10,7 @@ function contact() {
         className="contact-wrapper flex flex-col justify-evenly items-center text-2xl text-stone-600 px-16 tracking-wider"
       >
         <div className=" text-3xl">{`<Contact />`}</div>
-        <div className="contact-links flex justify-evenly items-center w-full">
+        <div className="contact-links flex justify-evenly items-center w-full select-none">
           <a
             href="mailto:kaifs8998@gmail.com"
             target="_blank"
