@@ -84,7 +84,7 @@ body::-webkit-scrollbar-thumb {
   margin: 0 0 0 auto;
 }
 .skills-list {
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 .contact-wrapper {
   height: 32rem;
