@@ -5,7 +5,7 @@ import Link from "next/link";
 const nav = () => {
   return (
     <>
-      <nav className="nav-wrapper flex bg-zinc-950 pt-6 pb-4 px-8 justify-between items-center text-slate-100 fixed w-screen z-10">
+      <nav className="nav-wrapper flex bg-zinc-950 pt-6 pb-4 px-8 justify-between items-center text-slate-100 fixed w-screen overflow-hidden z-10">
         <div className="nav-logo cursor-pointer">
           <span className="flex justify-between items-center text-xl font-semibold tracking-widest text-stone-500 select-none">
             <a href="/">{"<KS/>"}</a>
