@@ -12,11 +12,12 @@ const main = () => {
         id="home"
         className="main-wrapper flex justify-between items-center h-fit overflow-hidden pl-16 ml-1 pt-36"
       >
-        <div className="intro-text w-7/12 text-gray-200 text-3xl font-bold tracking-wider mt-12">
-          <h1 className="text py-1 flex items-center space-x-3">
-            <span className=" text-white">Hi, I'm</span>
-            <span className=" text-stone-500 space-x-3">
-              <Typewriter
+        <div className="intro-text w-7/12 text-gray-200 text-4xl font-bold tracking-wider ">
+          <h1 className="text-1 pb-2 text-sm">Hi, I'm</h1>
+          <h1 className="text-2 py-1 flex items-center space-x-3">
+            <span className="text-span text-stone-500 space-x-3">
+              {/* <span className="text-span2 text-white">Hi, I'm </span> */}
+              {/* <Typewriter
                 words={["<Kaif Siddiqui."]}
                 loop={1}
                 cursor
@@ -26,13 +27,14 @@ const main = () => {
                 // delaySpeed={1600}
                 // onLoopDone={handleDone}
                 // onType={handleType}
-              />
+              /> */}
+              KAIF SIDDIQUI
             </span>
           </h1>
-          <h1 className="text py-2">
-            <span className=" text-stone-500 space-x-3">
-              <span className=" text-white">I'm a</span>
-              <Typewriter
+          <h1 className="text-3 py-2">
+            <span className="text-span1 text-stone-500 space-x-3">
+              {/* <span className="text-span2 text-white">I'm a</span> */}
+              {/* <Typewriter
                 words={["<frontend web developer."]}
                 loop={1}
                 cursor
@@ -42,10 +44,11 @@ const main = () => {
                 // delaySpeed={1000}
                 // onLoopDone={handleDone}
                 // onType={handleType}
-              />
+              /> */}
+              FRONT-END WEB DEVELOPER
             </span>
           </h1>
-          <p className="text-summary text-sm font-light w-9/12 pt-4 pb-12">
+          <p className="text-summary text-xs font-light w-9/12 pt-4 pb-12">
             <span className=" text-lg">Welcome to my portfolio!</span> I
             translate ideas into visually stunning and functionally robust{" "}
             <span>web solutions</span>. Craft with intuitive{" "}
