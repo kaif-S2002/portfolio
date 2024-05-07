@@ -1,6 +1,5 @@
+"use client";
 import React from "react";
-import { FaPhone, FaLocationDot } from "react-icons/fa6";
-import { MdEmail } from "react-icons/md";
 
 function contact() {
   return (
