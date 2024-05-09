@@ -220,4 +220,15 @@ body::-webkit-scrollbar-thumb {
   .social-links {
     padding-top: 2rem;
   }
+  .contact-wrapper {
+    margin-bottom: 4rem;
+  }
+  .contact-links {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .footer-wrapper {
+    font-size: 0.4rem;
+    margin: 0 1rem 1rem 1rem;
+  }
 }
