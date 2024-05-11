@@ -220,6 +220,15 @@ body::-webkit-scrollbar-thumb {
   .social-links {
     padding-top: 2rem;
   }
+  .skills-wrapper {
+    margin: auto;
+    padding: 8rem 1rem 0rem 1rem;
+  }
+  .skills-cards {
+    flex-direction: column;
+    background-color: rgb(9, 9, 11 / 1);
+    border-radius: 0.75rem;
+  }
   .contact-wrapper {
     margin-bottom: 4rem;
   }
