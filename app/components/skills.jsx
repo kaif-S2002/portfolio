@@ -42,7 +42,7 @@ const skills = () => {
       <h1 className="skills-heading text-3xl text-stone-500 font-bold tracking-wider pb-6">{`<Skills />`}</h1>
 
       <div className="skills-cards flex justify-evenly items-start w-full h-fit mt-12 bg-zinc-950">
-        <div className="skills flex flex-col justify-center items-start p-6 text-stone-500 bg-zinc-950 rounded-xl">
+        <div className="skills flex flex-col justify-center items-start p-6 text-stone-500">
           {skillsData.map((category) => {
             return (
               <>
