@@ -211,6 +211,17 @@ body::-webkit-scrollbar-thumb {
   .text-summary {
     width: 90%;
   }
+  .skills-wrapper {
+    padding: 8rem 1rem 0rem 1rem;
+  }
+  .skills-cards {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 4rem;
+    width: fit-content;
+    background-color: rgba(9, 9, 11, 1);
+    border-radius: 0.75rem;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -220,14 +231,8 @@ body::-webkit-scrollbar-thumb {
   .social-links {
     padding-top: 2rem;
   }
-  .skills-wrapper {
-    margin: auto;
-    padding: 8rem 1rem 0rem 1rem;
-  }
   .skills-cards {
-    flex-direction: column;
-    background-color: rgb(9, 9, 11 / 1);
-    border-radius: 0.75rem;
+    padding: 0;
   }
   .contact-wrapper {
     margin-bottom: 4rem;
