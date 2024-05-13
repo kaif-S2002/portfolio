@@ -195,24 +195,35 @@ body::-webkit-scrollbar-thumb {
   .nav-list {
     display: none;
   }
-  .main-img {
-    display: none;
-  }
   .main-wrapper {
-    justify-content: center;
-    padding-left: 2rem;
     padding-top: 8rem;
   }
   .intro-text {
     font-size: 2rem;
-    margin-top: 2rem;
-    width: fit-content;
   }
   .text-summary {
+    width: 100%;
+    padding-bottom: 1.65rem;
+  }
+  .social-links {
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 845px) {
+  .main-wrapper {
+    padding-left: 2rem;
+  }
+  .main-img {
+    display: none;
+  }
+  .intro-text {
+    padding-top: 3rem;
     width: 90%;
   }
-  .skills-wrapper {
-    padding: 8rem 1rem 0rem 1rem;
+  .text-summary {
+    padding-bottom: 3rem;
+    width: 80%;
   }
   .skills-cards {
     flex-direction: column;
@@ -225,8 +236,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media screen and (max-width: 640px) {
+  .intro-text {
+    font-size: 2rem;
+  }
   .text-contact {
     padding-top: 1rem;
+    font-size: 0.6rem;
   }
   .social-links {
     padding-top: 2rem;
