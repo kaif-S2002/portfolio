@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import { Typewriter } from "nextjs-simple-typewriter";
 import { FaLinkedin, FaXTwitter, FaGithub, FaInstagram } from "react-icons/fa6";
 import { SiGmail } from "react-icons/si";
 
@@ -16,35 +15,11 @@ const main = () => {
           <h1 className="text-1 pb-2 text-sm">Hi, I'm</h1>
           <h1 className="text-2 py-1 flex items-center space-x-3">
             <span className="text-span text-stone-500 space-x-3">
-              {/* <span className="text-span2 text-white">Hi, I'm </span> */}
-              {/* <Typewriter
-                words={["<Kaif Siddiqui."]}
-                loop={1}
-                cursor
-                cursorStyle="/>"
-                typeSpeed={120}
-                // deleteSpeed={40}
-                // delaySpeed={1600}
-                // onLoopDone={handleDone}
-                // onType={handleType}
-              /> */}
               KAIF SIDDIQUI
             </span>
           </h1>
           <h1 className="text-3 py-2">
             <span className="text-span1 text-stone-500 space-x-3">
-              {/* <span className="text-span2 text-white">I'm a</span> */}
-              {/* <Typewriter
-                words={["<frontend web developer."]}
-                loop={1}
-                cursor
-                cursorStyle="/>"
-                typeSpeed={80}
-                // deleteSpeed={20}
-                // delaySpeed={1000}
-                // onLoopDone={handleDone}
-                // onType={handleType}
-              /> */}
               FRONT-END WEB DEVELOPER
             </span>
           </h1>
