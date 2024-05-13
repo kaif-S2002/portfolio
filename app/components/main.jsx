@@ -13,15 +13,11 @@ const main = () => {
       >
         <div className="intro-text w-7/12 text-gray-200 text-4xl font-bold tracking-wider ">
           <h1 className="text-1 pb-2 text-sm">Hi, I'm</h1>
-          <h1 className="text-2 py-1 flex items-center space-x-3">
-            <span className="text-span text-stone-500 space-x-3">
-              KAIF SIDDIQUI
-            </span>
+          <h1 className="text-2 py-1 text-stone-500 space-x-3">
+            KAIF SIDDIQUI
           </h1>
-          <h1 className="text-3 py-2">
-            <span className="text-span1 text-stone-500 space-x-3">
-              FRONT-END WEB DEVELOPER
-            </span>
+          <h1 className="text-3 py-2 text-stone-500 space-x-3">
+            FRONT-END WEB DEVELOPER
           </h1>
           <p className="text-summary text-xs font-light w-9/12 pt-4 pb-12">
             <span className=" text-lg">Welcome to my portfolio!</span> I
