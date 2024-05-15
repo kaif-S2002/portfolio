@@ -21,11 +21,11 @@ const projects = () => {
             <FaNewspaper size={120} className="projects-icon text-stone-600" />
             <div className="project-tech flex flex-col w-6/12 gap-4">
               <h4>News App</h4>
-              <p className=" text-sm">
+              <p className=" text-sm max-sm:text-xs">
                 Javascript, HTML, CSS, React JS, API's, React-hooks, JSON,
                 Fetch/Async-await etc.
               </p>
-              <div className="project-links flex justify-start items-center gap-20 text-sm mt-4 tracking-widest">
+              <div className="project-links flex justify-start items-center gap-20 text-sm mt-4 tracking-widest max-sm:text-xs">
                 <a
                   className=" text-white hover:text-stone-500"
                   href="https://github.com/kaif-S2002/news-app"
@@ -56,10 +56,10 @@ const projects = () => {
             />
             <div className="project-tech flex flex-col w-6/12 gap-4">
               <h4>Portfolio</h4>
-              <p className=" text-sm">
+              <p className=" text-sm max-sm:text-xs">
                 Javascript, HTML, CSS, Next JS, Tailwind-CSS, UI/UX etc.
               </p>
-              <div className="project-links flex justify-between items-center pr-10 text-sm mt-4 tracking-widest">
+              <div className="project-links flex justify-between items-center pr-10 text-sm mt-4 tracking-widest max-sm:text-xs">
                 <a
                   className=" text-white hover:text-stone-500"
                   href="https://github.com/kaif-S2002/portfolio"
@@ -81,7 +81,7 @@ const projects = () => {
             />
             <div className="project-tech flex flex-col w-6/12 gap-4">
               <h4>Ecommerce</h4>
-              <p className=" text-sm">Arriving shortly !</p>
+              <p className=" text-sm max-sm:text-xs">Arriving shortly !</p>
             </div>
           </div>
         </div>

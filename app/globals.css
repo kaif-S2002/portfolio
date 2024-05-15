@@ -246,6 +246,33 @@ body::-webkit-scrollbar-thumb {
   .social-links {
     padding-top: 2rem;
   }
+  .projects-wrapper {
+    padding: 9rem 2rem 0 2rem;
+  }
+  .projects {
+    width: fit-content;
+  }
+  .projects-card {
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    height: fit-content;
+  }
+  .projects-icon {
+    background-color: rgb(24 24 27 / 1);
+    width: 100%;
+    padding: 0.5rem 0;
+    border-radius: 0.5rem;
+  }
+  .project-tech {
+    width: 100%;
+    padding: 0.5rem;
+  }
+  .project-links {
+    gap: 0;
+    justify-content: space-between;
+    text-wrap: nowrap;
+  }
   .skills-cards {
     padding: 0;
   }
