@@ -19,7 +19,7 @@ const projects = () => {
             className={`projects-card news-card flex justify-around items-center gap-6 p-2 rounded-xl bg-zinc-950`}
           >
             <FaNewspaper size={120} className="projects-icon text-stone-600" />
-            <div className=" flex flex-col w-6/12 gap-4">
+            <div className="project-tech flex flex-col w-6/12 gap-4">
               <h4>News App</h4>
               <p className=" text-sm">
                 Javascript, HTML, CSS, React JS, API's, React-hooks, JSON,
@@ -54,7 +54,7 @@ const projects = () => {
               size={120}
               className="projects-icon text-stone-600"
             />
-            <div className=" flex flex-col w-6/12 gap-4">
+            <div className="project-tech flex flex-col w-6/12 gap-4">
               <h4>Portfolio</h4>
               <p className=" text-sm">
                 Javascript, HTML, CSS, Next JS, Tailwind-CSS, UI/UX etc.
@@ -79,7 +79,7 @@ const projects = () => {
               size={120}
               className="projects-icon text-stone-600"
             />
-            <div className=" flex flex-col w-6/12 gap-4">
+            <div className="project-tech flex flex-col w-6/12 gap-4">
               <h4>Ecommerce</h4>
               <p className=" text-sm">Arriving shortly !</p>
             </div>
