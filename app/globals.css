@@ -4,6 +4,7 @@
 
 :root {
   --primary-color: rgba(120, 113, 108, 1);
+  --secondary-color: rgb(9, 9, 11);
 }
 
 html {
@@ -12,7 +13,7 @@ html {
 }
 body::-webkit-scrollbar {
   width: 4px;
-  background: rgb(9, 9, 11, 1);
+  background: var(--secondary-color);
 }
 body::-webkit-scrollbar-thumb {
   background-color: var(--primary-color);
@@ -23,18 +24,9 @@ body::-webkit-scrollbar-thumb {
   cursor: pointer;
   position: relative;
 }
-.nav-ul li::after {
-  content: "";
-  width: 0;
-  height: 2px;
-  background-color: var(--primary-color);
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  transition: 0.4s ease-in-out;
-}
-.nav-ul li:hover::after {
-  width: 100%;
+.nav-ul li:hover {
+  color: var(--primary-color);
+  transition: ease-in-out 0.2s;
 }
 .nav-btn button {
   padding: 6px 8px;
@@ -76,11 +68,28 @@ body::-webkit-scrollbar-thumb {
   color: var(--primary-color);
 }
 .projects-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 0.75rem;
   width: 40rem;
   height: 14rem;
   transition: ease-in-out 0.5s;
   overflow: hidden;
   cursor: pointer;
+  background-color: var(--secondary-color);
+}
+.project-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin-top: 1rem;
+  letter-spacing: 0.1em;
+  text-wrap: nowrap;
 }
 .ecommerce-card {
   transition: ease-in-out 0.5s;
@@ -259,7 +268,7 @@ body::-webkit-scrollbar-thumb {
     height: fit-content;
   }
   .projects-icon {
-    background-color: rgb(24 24 27 / 1);
+    background-color: rgb(24 24 27);
     width: 100%;
     padding: 0.5rem 0;
     border-radius: 0.5rem;
