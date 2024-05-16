@@ -16,7 +16,7 @@ const projects = () => {
         <div className="projects flex flex-col gap-20 text-stone-500 w-full text-xl tracking-wider">
           <div
             id="news-card"
-            className={`projects-card news-card flex justify-around items-center gap-6 p-2 rounded-xl bg-zinc-950`}
+            className={`projects-card news-card sm:max-md:w-full`}
           >
             <FaNewspaper size={120} className="projects-icon text-stone-600" />
             <div className="project-tech flex flex-col w-6/12 gap-4">
@@ -25,7 +25,7 @@ const projects = () => {
                 Javascript, HTML, CSS, React JS, API's, React-hooks, JSON,
                 Fetch/Async-await etc.
               </p>
-              <div className="project-links flex justify-start items-center gap-20 text-sm mt-4 tracking-widest max-sm:text-xs">
+              <div className="project-links max-sm:text-xs">
                 <a
                   className=" text-white hover:text-stone-500"
                   href="https://github.com/kaif-S2002/news-app"
@@ -48,7 +48,7 @@ const projects = () => {
 
           <div
             id="portfolio-card"
-            className={`projects-card portfolio-card flex justify-around items-center gap-6 p-2 rounded-xl bg-zinc-950`}
+            className={`projects-card portfolio-card sm:max-md:w-full`}
           >
             <BsPersonWorkspace
               size={120}
@@ -59,7 +59,7 @@ const projects = () => {
               <p className=" text-sm max-sm:text-xs">
                 Javascript, HTML, CSS, Next JS, Tailwind-CSS, UI/UX etc.
               </p>
-              <div className="project-links flex justify-between items-center pr-10 text-sm mt-4 tracking-widest max-sm:text-xs">
+              <div className="project-links max-sm:text-xs">
                 <a
                   className=" text-white hover:text-stone-500"
                   href="https://github.com/kaif-S2002/portfolio"
@@ -73,7 +73,7 @@ const projects = () => {
           </div>
           <div
             id="ecommerce-card"
-            className={`projects-card ecommerce-card flex justify-around items-center gap-6 p-2 rounded-xl bg-zinc-950`}
+            className={`projects-card ecommerce-card sm:max-md:w-full`}
           >
             <FaCartShopping
               size={120}
