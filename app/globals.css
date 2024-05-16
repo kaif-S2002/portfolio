@@ -105,7 +105,7 @@ body::-webkit-scrollbar-thumb {
   height: 32rem;
 }
 .contact-links a:hover {
-  color: rgb(226 232 240 / 1);
+  color: rgb(226 232 240);
 }
 .top-btn a {
   font-size: large;
@@ -116,7 +116,7 @@ body::-webkit-scrollbar-thumb {
   background: transparent;
 }
 .top-btn a:hover {
-  color: rgb(226 232 240 / 1);
+  color: rgb(226 232 240);
 }
 
 /* @Keyframes */
@@ -222,16 +222,18 @@ body::-webkit-scrollbar-thumb {
 @media screen and (max-width: 845px) {
   .main-wrapper {
     padding-left: 2rem;
+    padding-right: 0.5rem;
   }
   .main-img {
     display: none;
   }
   .intro-text {
-    padding-top: 3rem;
-    width: 90%;
+    padding-top: 1.6rem;
+    width: 100%;
   }
   .text-summary {
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
+    line-height: 1.2rem;
     width: 80%;
   }
   .skills-cards {
@@ -239,14 +241,14 @@ body::-webkit-scrollbar-thumb {
     gap: 2rem;
     padding: 0 4rem;
     width: fit-content;
-    background-color: rgba(9, 9, 11, 1);
+    background-color: var(--secondary-color);
     border-radius: 0.75rem;
   }
 }
 
 @media screen and (max-width: 640px) {
   .intro-text {
-    font-size: 2rem;
+    font-size: 2.4rem;
   }
   .text-contact {
     padding-top: 1rem;
