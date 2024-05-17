@@ -244,6 +244,15 @@ body::-webkit-scrollbar-thumb {
     background-color: var(--secondary-color);
     border-radius: 0.75rem;
   }
+  .about-text {
+    padding: 4rem 0 0 0;
+  }
+  .about-text p {
+    font-size: 1rem;
+  }
+  .sign-image {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -286,6 +295,14 @@ body::-webkit-scrollbar-thumb {
   }
   .skills-cards {
     padding: 0;
+  }
+  .about-wrapper {
+    padding: 9rem 2rem 0 2rem;
+  }
+  .about-text p {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    margin-bottom: 4rem;
   }
   .contact-wrapper {
     margin-bottom: 4rem;
