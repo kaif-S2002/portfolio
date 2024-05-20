@@ -14,15 +14,12 @@ const about = () => {
         </div>
         <div className="about-text flex justify-between items-center w-full text-lg text-wrap tracking-widest pl-6 pt-20 pb-5">
           <p>
-            Hi, I’m Kaif Siddiqui a{" "}
-            <span>self-taught frontend web developer</span> based out of{" "}
-            <span>Greater Noida</span>, <span>India</span>. I have completed my
-            graduation with Political Science Honors from DU (Delhi University-
-            2023). I have also completed some courses in frontend web
-            development from online resources (<span>Frontend Masters</span>,{" "}
-            <span>Scaler</span>, <span>Codedamn</span>, etc.). Currently, I’m
-            hunting for an opportunity for a frontend web developer role as my
-            professional career.
+            Hi, I'm <span>Kaif Siddiqui</span>, a self-taught frontend web
+            developer dedicated to creating an <span>engaging</span> and{" "}
+            <span>dynamic user experiences</span>. With a strong foundation in{" "}
+            <span>HTML</span>, <span>CSS</span>, and <span>JavaScript</span>, I
+            specialize in building <span>responsive</span> and{" "}
+            <span>interactive</span> websites. I bring ideas to life on the web.
           </p>
           <div className="sign-image flex justify-center items-center pl-10 shrink-0">
             <Image
