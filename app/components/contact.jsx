@@ -8,7 +8,9 @@ function contact() {
         id="contact"
         className="contact-wrapper flex flex-col justify-evenly items-center text-2xl text-stone-600 px-16 tracking-wider overflow-hidden"
       >
-        <div className=" text-3xl">{`<Contact />`}</div>
+        <div className=" text-3xl">
+          <h1>{`<Contact />`}</h1>
+        </div>
         <div className="contact-links flex justify-evenly items-center w-full select-none">
           <a
             href="mailto:kaifs8998@gmail.com"
