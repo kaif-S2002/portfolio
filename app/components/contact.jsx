@@ -6,7 +6,7 @@ function contact() {
     <>
       <section
         id="contact"
-        className="contact-wrapper flex flex-col justify-evenly items-center text-2xl text-stone-600 px-16 tracking-wider overflow-hidden"
+        className="contact-wrapper flex flex-col justify-evenly items-center text-2xl text-stone-500 px-16 tracking-wider overflow-hidden"
       >
         <div className=" text-3xl">
           <h1>{`<Contact />`}</h1>
