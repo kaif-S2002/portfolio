@@ -9,7 +9,7 @@ const about = () => {
         id="about"
         className="about-wrapper flex flex-col text-white px-16 pt-36 m-auto h-fit overflow-hidden tracking-wider"
       >
-        <div className="about-heading flex justify-center items-center text-3xl text-stone-600">
+        <div className="about-heading flex justify-center items-center text-3xl text-stone-500">
           <h1>{`<About />`}</h1>
         </div>
         <div className="about-text flex justify-between items-center w-full text-lg text-wrap pl-6 pt-20 pb-5">
