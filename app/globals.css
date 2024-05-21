@@ -21,6 +21,7 @@ body::-webkit-scrollbar-thumb {
 }
 .nav-ul li {
   padding: 6px;
+  margin-left: 2.5rem;
   cursor: pointer;
   position: relative;
 }
@@ -32,6 +33,12 @@ body::-webkit-scrollbar-thumb {
   padding: 6px 8px;
   border-radius: 10px;
   cursor: pointer;
+}
+.nav-btn {
+  margin-left: 2rem;
+}
+.menu-btn {
+  display: none;
 }
 .myImg {
   animation: img-fade-in 1.2s ease-in-out;
@@ -201,8 +208,44 @@ body::-webkit-scrollbar-thumb {
 /* media-queries */
 
 @media screen and (max-width: 992px) {
-  .nav-list {
-    display: none;
+  .nav-wrapper {
+    position: fixed, relative;
+    overflow: visible;
+  }
+  .nav-items {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(24 24 27);
+    border-radius: 0.5rem;
+    height: fit-content;
+    padding: 2rem 4.5rem;
+    top: 4.39rem;
+    right: -10%;
+    position: absolute;
+    transition: 0.4s ease-in-out;
+    opacity: 0;
+  }
+  .nav-items.openList {
+    right: 0.2rem;
+    opacity: 1;
+  }
+  .nav-list .nav-ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .nav-items,
+  .nav-ul > li {
+    margin-left: 0;
+  }
+  .nav-btn {
+    padding-top: 2rem;
+    margin-left: 0;
+  }
+  .menu-btn {
+    display: flex;
   }
   .main-wrapper {
     padding-top: 8rem;
@@ -244,8 +287,11 @@ body::-webkit-scrollbar-thumb {
     background-color: var(--secondary-color);
     border-radius: 0.75rem;
   }
+  .about-wrapper {
+    gap: 2rem;
+  }
   .about-text {
-    padding: 4rem 0 0 0;
+    padding: 2.5rem 0 5rem 0;
   }
   .about-text p {
     font-size: 1rem;
@@ -302,7 +348,7 @@ body::-webkit-scrollbar-thumb {
   .about-text p {
     font-size: 0.9rem;
     line-height: 1.5rem;
-    margin-bottom: 4rem;
+    /* margin-bottom: 4rem; */
   }
   .contact-wrapper {
     margin-bottom: 4rem;
