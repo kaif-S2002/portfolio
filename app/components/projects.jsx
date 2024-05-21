@@ -8,17 +8,17 @@ const projects = () => {
     <>
       <section
         id="projects"
-        className="projects-wrapper flex flex-col justify-center items-center px-16 pt-36 h-fit overflow-hidden"
+        className="projects-wrapper flex flex-col justify-center items-center px-16 pt-36 text-stone-500 h-fit overflow-hidden"
       >
-        <div className="projects-heading text-3xl text-stone-600 tracking-wider pb-16 ">
+        <div className="projects-heading text-3xl tracking-wider pb-16 ">
           <h1>{`<Projects/>`}</h1>
         </div>
-        <div className="projects flex flex-col gap-20 text-stone-500 w-full text-xl tracking-wider">
+        <div className="projects flex flex-col gap-20 w-full text-xl tracking-wider">
           <div
             id="news-card"
             className={`projects-card news-card sm:max-md:w-full`}
           >
-            <FaNewspaper size={120} className="projects-icon text-stone-600" />
+            <FaNewspaper size={120} className="projects-icon" />
             <div className="project-tech flex flex-col w-6/12 gap-4">
               <h4>News App</h4>
               <p className=" text-sm max-sm:text-xs">
@@ -50,10 +50,7 @@ const projects = () => {
             id="portfolio-card"
             className={`projects-card portfolio-card sm:max-md:w-full`}
           >
-            <BsPersonWorkspace
-              size={120}
-              className="projects-icon text-stone-600"
-            />
+            <BsPersonWorkspace size={120} className="projects-icon" />
             <div className="project-tech flex flex-col w-6/12 gap-4">
               <h4>Portfolio</h4>
               <p className=" text-sm max-sm:text-xs">
@@ -75,10 +72,7 @@ const projects = () => {
             id="ecommerce-card"
             className={`projects-card ecommerce-card sm:max-md:w-full`}
           >
-            <FaCartShopping
-              size={120}
-              className="projects-icon text-stone-600"
-            />
+            <FaCartShopping size={120} className="projects-icon" />
             <div className="project-tech flex flex-col w-6/12 gap-4">
               <h4>Ecommerce</h4>
               <p className=" text-sm max-sm:text-xs">Arriving shortly !</p>
