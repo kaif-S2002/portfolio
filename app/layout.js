@@ -5,8 +5,8 @@ import "./globals.css";
 const poppins = Poppins({ weight: ["400"], subsets: ["latin"] });
 
 export const metadata = {
-  title: "Kaif Siddiqui - Portfolio",
-  description: "Portfolio website created with NextJS.",
+  title: "Portfolio - Kaif Siddiqui",
+  description: "Portfolio website build with NextJS.",
 };
 
 export default function RootLayout({ children }) {
