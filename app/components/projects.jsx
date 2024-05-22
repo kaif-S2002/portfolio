@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import { FaNewspaper, FaCartShopping } from "react-icons/fa6";
 import { BsPersonWorkspace } from "react-icons/bs";
