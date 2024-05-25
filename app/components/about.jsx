@@ -13,12 +13,18 @@ const about = () => {
         </div>
         <div className="about-text flex justify-between items-center w-full text-lg text-wrap pl-6 pt-20 pb-5">
           <p>
-            Hi, I'm <span>Kaif Siddiqui</span>, a frontend web developer
-            dedicated to creating an <span>engaging</span> and{" "}
-            <span>dynamic user experiences</span>. With a strong foundation in{" "}
-            <span>HTML</span>, <span>CSS</span>, and <span>JavaScript</span>, I
-            specialize in building <span>responsive</span> and{" "}
-            <span>interactive</span> websites. I bring ideas to life on the web.
+            Hi, I'm <span>Kaif Siddiqui</span>, a passionate{" "}
+            <span>frontend web developer</span> with expertise in{" "}
+            <span>HTML</span>, <span>CSS</span>, and <span>JavaScript</span>. I
+            have a strong background in modern frameworks and libraries,
+            including <span>React.js</span>, <span>Next.js</span>, and{" "}
+            <span>Redux</span>. My skills extend to backend technologies such as{" "}
+            <span>Node.js</span> and <span>Express.js</span>, enabling me to
+            build comprehensive <span>full-stack applications</span>. I also
+            specialize in creating <span>visually appealing</span> and{" "}
+            <span>responsive designs</span> using <span>Tailwind CSS</span>. I
+            am actively seeking job opportunities where I can{" "}
+            <span>contribute my skills and grow professionally</span>.
           </p>
           <div className="sign-image flex justify-center items-center pl-10 shrink-0">
             <Image
