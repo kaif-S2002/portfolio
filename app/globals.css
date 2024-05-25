@@ -260,6 +260,9 @@ body::-webkit-scrollbar-thumb {
   .social-links {
     padding-top: 1rem;
   }
+  .sign-image {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 845px) {
@@ -295,9 +298,6 @@ body::-webkit-scrollbar-thumb {
   }
   .about-text p {
     font-size: 1rem;
-  }
-  .sign-image {
-    display: none;
   }
 }
 
