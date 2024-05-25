@@ -6,7 +6,7 @@ const about = () => {
     <>
       <section
         id="about"
-        className="about-wrapper flex flex-col text-white px-16 pt-36 m-auto h-fit overflow-hidden tracking-wider"
+        className="about-wrapper flex flex-col text-slate-100 px-16 pt-36 m-auto h-fit overflow-hidden tracking-wider"
       >
         <div className="about-heading flex justify-center items-center text-3xl text-stone-500">
           <h1>{`<About />`}</h1>
