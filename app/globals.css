@@ -10,6 +10,7 @@
 html {
   scroll-behavior: smooth;
   background-color: black;
+  scroll-snap-type: y mandatory;
 }
 body::-webkit-scrollbar {
   width: 4px;
@@ -74,6 +75,12 @@ body::-webkit-scrollbar-thumb {
 .about-text span {
   color: var(--primary-color);
 }
+.main-wrapper {
+  scroll-snap-align: start;
+}
+.projects-wrapper {
+  scroll-snap-align: start;
+}
 .projects-card {
   display: flex;
   justify-content: space-around;
@@ -105,14 +112,24 @@ body::-webkit-scrollbar-thumb {
   transition: ease-in-out 0.5s;
   margin: 0 0 0 auto;
 }
+.skills-wrapper {
+  scroll-snap-align: start;
+}
 .skills-list {
   grid-template-columns: 1fr 1fr;
 }
+.about-wrapper {
+  scroll-snap-align: start;
+}
 .contact-wrapper {
   height: 32rem;
+  scroll-snap-align: start;
 }
 .contact-links a:hover {
   color: rgb(226 232 240);
+}
+.footer-wrapper {
+  scroll-snap-align: start;
 }
 .top-btn a {
   font-size: large;
