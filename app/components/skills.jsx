@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import {
   RiJavascriptFill,
@@ -42,49 +43,45 @@ const skills = () => {
 
       <div className="skills-cards flex justify-evenly items-start w-full h-fit mt-12 bg-zinc-950">
         <div className="skills flex flex-col justify-center items-start p-6 text-stone-500">
-          {skillsData.map((category) => {
+          {skillsData.map((category, index) => {
             return (
-              <>
-                <div key={category.title}>
-                  <h2>{category.frontend.title}</h2>
-                  <div className="h-6 w-0.5 bg-stone-600 mt-2 mb-4 ml-4"></div>
-                  <div className="skills-list grid justify-center items-center gap-8 text-xs tracking-wide">
-                    {category.frontend.items.map((item, index) => (
-                      <div
-                        key={index}
-                        className="skills-list-items flex items-center"
-                      >
-                        <i>{item.icon}</i>
-                        <h4 className="ml-2">{item.title}</h4>
-                      </div>
-                    ))}
-                  </div>
+              <div key={index}>
+                <h2>{category.frontend.title}</h2>
+                <div className="h-6 w-0.5 bg-stone-600 mt-2 mb-4 ml-4"></div>
+                <div className="skills-list grid justify-center items-center gap-8 text-xs tracking-wide">
+                  {category.frontend.items.map((item, index) => (
+                    <div
+                      key={index}
+                      className="skills-list-items flex items-center"
+                    >
+                      <i>{item.icon}</i>
+                      <h4 className="ml-2">{item.title}</h4>
+                    </div>
+                  ))}
                 </div>
-              </>
+              </div>
             );
           })}
         </div>
 
         <div className="skills flex flex-col justify-start items-start p-6 text-stone-500 bg-zinc-950 rounded-xl">
-          {skillsData.map((category) => {
+          {skillsData.map((category, index) => {
             return (
-              <>
-                <div key={category.title}>
-                  <h2>{category.devTools.title}</h2>
-                  <div className="h-6 w-0.5 bg-stone-600 mt-2 mb-4 ml-4"></div>
-                  <div className="skills-list grid justify-center items-center gap-8 text-xs tracking-wide">
-                    {category.devTools.items.map((item, index) => (
-                      <div
-                        key={index}
-                        className="skills-list-items flex items-center"
-                      >
-                        <i>{item.icon}</i>
-                        <h4 className="ml-2">{item.title}</h4>
-                      </div>
-                    ))}
-                  </div>
+              <div key={index}>
+                <h2>{category.devTools.title}</h2>
+                <div className="h-6 w-0.5 bg-stone-600 mt-2 mb-4 ml-4"></div>
+                <div className="skills-list grid justify-center items-center gap-8 text-xs tracking-wide">
+                  {category.devTools.items.map((item, index) => (
+                    <div
+                      key={index}
+                      className="skills-list-items flex items-center"
+                    >
+                      <i>{item.icon}</i>
+                      <h4 className="ml-2">{item.title}</h4>
+                    </div>
+                  ))}
                 </div>
-              </>
+              </div>
             );
           })}
         </div>
