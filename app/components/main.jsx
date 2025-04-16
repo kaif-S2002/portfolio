@@ -24,7 +24,7 @@ const main = () => {
           <span>responsive design</span> and <span>seamless interaction.</span>
         </p>
         <p className="text-contact text-stone-500 text-xs font-medium">
-          Contact: +91-9310551083 | kaifs8998@gmail.com
+          Contact: +91-931055**** | kaifs8998@gmail.com
         </p>
         <ul className="social-links flex justify-start items-center text-xl text-stone-500 pt-6 space-x-6">
           <li>
