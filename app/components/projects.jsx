@@ -3,7 +3,7 @@ import React from "react";
 import { FaNewspaper, FaCartShopping } from "react-icons/fa6";
 import { BsPersonWorkspace } from "react-icons/bs";
 
-const projects = () => {
+const Projects = () => {
   return (
     <section
       id="projects"
@@ -82,4 +82,4 @@ const projects = () => {
   );
 };
 
-export default projects;
+export default Projects;
