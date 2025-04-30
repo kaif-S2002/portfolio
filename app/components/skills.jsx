@@ -10,7 +10,7 @@ import { SiTailwindcss } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 import { FaGitAlt, FaGithub } from "react-icons/fa";
 
-const skills = () => {
+const Skills = () => {
   const skillsData = [
     {
       frontend: {
@@ -90,4 +90,4 @@ const skills = () => {
   );
 };
 
-export default skills;
+export default Skills;
