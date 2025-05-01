@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 
-const about = () => {
+const About = () => {
   return (
     <section
       id="about"
@@ -38,4 +38,4 @@ const about = () => {
     </section>
   );
 };
-export default about;
+export default About;
