@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { RiMenu3Line, RiCloseFill } from "react-icons/ri";
 
-const nav = () => {
+const Nav = () => {
   const [open, setOpen] = useState(true);
   const [list, setList] = useState(false);
   const handleClick = () => {
@@ -74,4 +74,4 @@ const nav = () => {
   );
 };
 
-export default nav;
+export default Nav;
