@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 
-function contact() {
+function Contact() {
   return (
     <section
       id="contact"
@@ -44,4 +44,4 @@ function contact() {
   );
 }
 
-export default contact;
+export default Contact;

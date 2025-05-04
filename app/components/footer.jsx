@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 
-const footer = () => {
+const Footer = () => {
   return (
     <footer
       id="footer"
@@ -16,4 +16,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;
