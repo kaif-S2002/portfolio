@@ -4,7 +4,7 @@ import Image from "next/image";
 import { FaLinkedin, FaXTwitter, FaGithub, FaInstagram } from "react-icons/fa6";
 import { SiGmail } from "react-icons/si";
 
-const main = () => {
+const Main = () => {
   return (
     <section
       id="home"
@@ -87,6 +87,7 @@ const main = () => {
           width={400}
           height={400}
           alt="alt-image"
+          priority
           className="myImg "
         />
       </div>
@@ -94,4 +95,4 @@ const main = () => {
   );
 };
 
-export default main;
+export default Main;
