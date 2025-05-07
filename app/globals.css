@@ -4,7 +4,8 @@
 
 :root {
   --primary-color: rgba(120, 113, 108, 1);
-  --secondary-color: rgb(9, 9, 11);
+  /* --secondary-color: rgb(9, 9, 11); */
+  --secondary-color: #09090b;
 }
 
 html {
@@ -82,10 +83,10 @@ body::-webkit-scrollbar-thumb {
   justify-content: space-around;
   align-items: center;
   gap: 1.5rem;
-  padding: 0.5rem;
+  padding: 1rem 0.5rem;
   border-radius: 0.75rem;
   width: 40rem;
-  height: 14rem;
+  height: 15rem;
   transition: ease-in-out 0.5s;
   overflow: hidden;
   cursor: pointer;
@@ -219,18 +220,19 @@ body::-webkit-scrollbar-thumb {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(24 24 27);
+    background-color: var(--secondary-color);
+    border: 1px solid #18181b;
     border-radius: 0.5rem;
     height: fit-content;
     padding: 2rem 4.5rem;
     top: 4.39rem;
-    right: -10%;
+    right: -20%;
     position: absolute;
     transition: 0.4s ease-in-out;
     opacity: 0;
   }
   .nav-items.openList {
-    right: 0.2rem;
+    right: 0.1%;
     opacity: 1;
   }
   .nav-list .nav-ul {
