@@ -4,20 +4,18 @@ import Link from "next/link";
 import { RiMenu3Line, RiCloseFill } from "react-icons/ri";
 
 const Nav = () => {
-  const [open, setOpen] = useState(true);
-  const [list, setList] = useState(false);
+  const [open, setOpen] = useState(false);
   const handleClick = () => {
     setOpen(!open);
-    setList(!list);
   };
   return (
-    <nav className="nav-wrapper flex bg-zinc-950 pt-6 pb-4 px-8 justify-between items-center text-slate-100 fixed w-screen overflow-hidden z-10">
+    <nav className="nav-wrapper flex bg-zinc-950 border-b border-zinc-900 pt-6 pb-4 px-8 justify-between items-center text-slate-100 fixed w-screen overflow-hidden z-10">
       <div className="nav-logo cursor-pointer">
         <span className="flex justify-between items-center text-xl font-semibold pt-0.5 tracking-widest text-stone-500 select-none">
           <a href="/">{"<KS/>"}</a>
         </span>
       </div>
-      <div className={`nav-items flex ${list ? "openList" : ""}`}>
+      <div className={`nav-items flex ${open ? "openList" : ""}`}>
         <div className="nav-list">
           <ul className="nav-ul flex text-sm tracking-wider select-none">
             <li>
@@ -57,16 +55,16 @@ const Nav = () => {
       </div>
       <div className="menu-btn">
         {open ? (
-          <RiMenu3Line
-            size={30}
-            onClick={handleClick}
-            className=" text-stone-500"
-          />
-        ) : (
           <RiCloseFill
             size={30}
             onClick={handleClick}
             className="text-stone-500"
+          />
+        ) : (
+          <RiMenu3Line
+            size={30}
+            onClick={handleClick}
+            className=" text-stone-500"
           />
         )}
       </div>
