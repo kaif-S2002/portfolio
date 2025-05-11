@@ -20,10 +20,14 @@ const Projects = () => {
           <FaNewspaper size={120} className="projects-icon" />
           <div className="project-tech flex flex-col w-6/12 gap-4">
             <h4>News App</h4>
-            <p className=" text-sm max-sm:text-xs">
-              Javascript, HTML, CSS, React JS, API's, React-hooks, JSON,
-              Fetch/Async-await etc.
-            </p>
+            <ul className="text-sm pl-3 max-sm:text-xs list-disc">
+              <li>Modern React Stack</li>
+              <li>Dynamic News Fetching</li>
+              <li>Category-Based News Filtering</li>
+              <li>Seamless Navigation</li>
+              <li>Loading Indicators</li>
+              <li>Responsive Design</li>
+            </ul>
             <div className="project-links max-sm:text-xs">
               <a
                 className=" text-white hover:text-stone-500"
